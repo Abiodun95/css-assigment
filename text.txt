@@ -1,0 +1,50 @@
+create a simple contact form, the contact form will have four input element and button including  my name, email, address, password, text area, last name
+CSS SELECTIONS
+Element selector (html element)
+Id selectors ( #id)
+class selector (.class)
+universal selector (*)
+grouping selector ( combination of html elements)
+element / class selectors (element,classname)
+-CSS TYPES: Inline, head tag & external styling
+-CSS POSITIONING:
+/universal selector; HTML Element Reset, global formatting/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: 1px solid red;
+}
+/Elements selector; defining for each elements/
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+/ID selector; defining unique identity for specific elements/
+#address{
+    color: red;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+/Class selector; defining unique identity for specific elements/
+.company{
+    color: green;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+/Element.Class Selectors (element.classname) defining unique identity for specific elements/
+p.serve{
+    color: gray;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+/*Grouping Selectors */
+h1, h2, h3, h4{
+    font-size: 30px;
+    text-transform: lowercase;
+}

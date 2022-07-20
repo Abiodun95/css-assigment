@@ -1,0 +1,24 @@
+* {
+  padding: 0.5em;
+  margin: 0%;
+  box-sizing: border-box;
+  background-color: #15172b;
+  text-overflow: initial; 
+}
+h1 {
+  text-align: left;
+  color: #eee;
+  font-size: 30px;
+}
+
+#account {
+  color: #eee;
+}
+.form {
+  color: darkmagenta;
+}
+button {
+  color: #06b;
+  fill: blue;
+  background-image: #65657b;
+}
